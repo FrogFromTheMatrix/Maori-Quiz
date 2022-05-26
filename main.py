@@ -7,10 +7,10 @@ x = input(
 
 
 if x == "yes" or x == "y":
- l = input("What is the maori word for coding? ").lower()
-if l == "whakawaehere":
+ q1 = input("What is the maori word for Coding? ").lower()
+if q1 == "whakawaehere":
  print("Correct!")
 
-else:
-  exit("Fail!")
-         
+q2 = input("What is the maori word for Hardware").lower()
+if q2 == "Pumaro ":
+  print("Correct!")
